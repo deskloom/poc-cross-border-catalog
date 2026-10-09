@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>そらビューティ | 多言語・多通貨カタログ見本</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p class="sample-banner" id="sample-banner">これは見本です。店名と商品はすべて架空です。</p>
+<header>
+<h1 id="shop-name">そらビューティ</h1>
+<p id="tagline">アジアへ届けるスキンケアとコスメの見本市</p>
+</header>
+
+<div class="controls">
+<div class="control-group">
+<span class="label" id="lang-label">言語</span>
+<div class="switcher" id="lang-switcher" role="group" aria-label="language"></div>
+</div>
+<div class="control-group">
+<span class="label" id="currency-label">通貨</span>
+<div class="switcher" id="currency-switcher" role="group" aria-label="currency"></div>
+</div>
+</div>
+
+<main>
+<p class="tri-note" id="tri-note"></p>
+<nav class="category-nav" id="category-nav" aria-label="categories"></nav>
+<p class="result-line" id="result-line"></p>
+<ul class="grid" id="results"></ul>
+<p class="note" id="note"></p>
+<section class="shopify-memo" aria-label="Shopify setup notes">
+<h2 id="shopify-title">無料テーマへ移すための雛形</h2>
+<p id="shopify-desc">この画面の切り替えは見本用の固定表示です。本番は翻訳アプリと Markets に置き換えます。設定の雛形はリポジトリの <code>shopify/</code> にあります。</p>
+<ul>
+<li><code>shopify/THEME.md</code> … テーマ構成図と POC ファイルの対応表</li>
+<li><code>shopify/locales/ja.json</code>・<code>en.json</code>・<code>zh-Hant.json</code> … 3言語ロケール（40点ぶん）</li>
+<li><code>shopify/MARKETS.md</code> … マーケット・通貨の想定設定メモ</li>
+<li><code>shopify/products.csv</code> … 40点ぶんの商品登録インポート雛形（支給画像ファイル名つき）</li>
+</ul>
+</section>
+</main>
+
+<script src="catalog.js"></script>
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

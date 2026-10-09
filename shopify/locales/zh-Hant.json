@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "note": "翻譯應用程式讀取用的範例語系檔。店名與商品皆為虛構。",
+    "base": "zh-Hant"
+  },
+  "theme": {
+    "shopName": "Sora 美妝",
+    "tagline": "面向亞洲的保養與彩妝型錄範例",
+    "langLabel": "語言",
+    "currencyLabel": "貨幣",
+    "all": "全部",
+    "items": "件商品",
+    "note": "價格以固定示範匯率切換顯示。正式版改用 Markets 多貨幣顯示。"
+  },
+  "categories": {
+    "skincare": "護膚",
+    "makeup": "彩妝",
+    "haircare": "護髮",
+    "bodycare": "身體護理"
+  },
+  "products": {
+    "p01": {"handle": "awa-face-wash", "title": "泡沫洗面乳", "body": "綿密泡沫的日常洗面乳。", "category": "skincare", "priceJpy": 1800, "image": "skincare-01.jpg"},
+    "p02": {"handle": "shittori-lotion", "title": "保濕化妝水", "body": "適合偏乾肌膚的化妝水。", "category": "skincare", "priceJpy": 2400, "image": "skincare-02.jpg"},
+    "p03": {"handle": "oyasumi-cream", "title": "晚安保濕霜", "body": "夜間護理用保濕霜。", "category": "skincare", "priceJpy": 3200, "image": "skincare-03.jpg"},
+    "p04": {"handle": "sarasara-sun-base", "title": "清爽防曬妝前乳", "body": "可當妝前乳的防曬乳。", "category": "makeup", "priceJpy": 1500, "image": "makeup-01.jpg"},
+    "p05": {"handle": "nijimi-mascara", "title": "不易暈染睫毛膏", "body": "抗汗抗油的睫毛膏。", "category": "makeup", "priceJpy": 1300, "image": "makeup-02.jpg"},
+    "p06": {"handle": "uruoi-tint-lip", "title": "保濕潤色護唇膏", "body": "微微顯色的保濕潤唇膏。", "category": "makeup", "priceJpy": 1600, "image": "makeup-03.jpg"},
+    "p07": {"handle": "sappari-shampoo", "title": "清爽洗髮精", "body": "清爽洗淨頭皮的洗髮精。", "category": "haircare", "priceJpy": 1400, "image": "haircare-01.jpg"},
+    "p08": {"handle": "matomari-treatment", "title": "柔順護髮素", "body": "讓髮尾柔順的沖洗式護理。", "category": "haircare", "priceJpy": 1400, "image": "haircare-02.jpg"},
+    "p09": {"handle": "tsuya-hair-oil", "title": "亮澤護髮油", "body": "免沖洗的亮澤護髮油。", "category": "haircare", "priceJpy": 1900, "image": "haircare-03.jpg"},
+    "p10": {"handle": "yasashii-body-soap", "title": "溫和沐浴露", "body": "全家可用的溫和洗淨露。", "category": "bodycare", "priceJpy": 1200, "image": "bodycare-01.jpg"},
+    "p11": {"handle": "shittori-body-milk", "title": "保濕身體乳", "body": "沐浴後的保濕身體乳。", "category": "bodycare", "priceJpy": 2100, "image": "bodycare-02.jpg"},
+    "p12": {"handle": "sarasara-seikan-sheet", "title": "清爽制汗濕巾", "body": "外出可用的汗水濕巾。", "category": "bodycare", "priceJpy": 980, "image": "bodycare-03.jpg"},
+    "p13": {"handle": "fukitori-lotion", "title": "清爽擦拭化妝水", "body": "早晨擦拭護理用化妝水。", "category": "skincare", "priceJpy": 1600, "image": "skincare-04.jpg"},
+    "p14": {"handle": "vitamin-serum", "title": "維他命精華液", "body": "每日保濕護理用精華液。", "category": "skincare", "priceJpy": 2800, "image": "skincare-05.jpg"},
+    "p15": {"handle": "sheet-mask-5", "title": "片裝面膜5片組", "body": "週末集中護理用面膜5片組。", "category": "skincare", "priceJpy": 1100, "image": "skincare-06.jpg"},
+    "p16": {"handle": "sunscreen-gel", "title": "防曬凝膠", "body": "可當妝前乳的臉部身體兩用凝膠。", "category": "skincare", "priceJpy": 1700, "image": "skincare-07.jpg"},
+    "p17": {"handle": "enzyme-wash-powder", "title": "酵素洗顏粉", "body": "加水起泡的粉狀洗面乳。", "category": "skincare", "priceJpy": 1900, "image": "skincare-08.jpg"},
+    "p18": {"handle": "lotion-mist", "title": "化妝水噴霧", "body": "外出也可用的細緻噴霧。", "category": "skincare", "priceJpy": 1300, "image": "skincare-09.jpg"},
+    "p19": {"handle": "eye-moisture-cream", "title": "眼部保濕霜", "body": "夜間眼周護理用乳霜。", "category": "skincare", "priceJpy": 2600, "image": "skincare-10.jpg"},
+    "p20": {"handle": "soft-blush", "title": "柔和腮紅", "body": "為雙頰增添自然氣色的腮紅。", "category": "makeup", "priceJpy": 1400, "image": "makeup-04.jpg"},
+    "p21": {"handle": "longwear-liner", "title": "持久眼線筆", "body": "抗汗抗油的細筆眼線筆。", "category": "makeup", "priceJpy": 1200, "image": "makeup-05.jpg"},
+    "p22": {"handle": "moist-foundation", "title": "保濕粉底液", "body": "輕薄不易乾燥的粉底液。", "category": "makeup", "priceJpy": 2900, "image": "makeup-06.jpg"},
+    "p23": {"handle": "brow-mascara", "title": "染眉膏", "body": "不易沾到肌膚的小刷頭染眉膏。", "category": "makeup", "priceJpy": 1300, "image": "makeup-07.jpg"},
+    "p24": {"handle": "glossy-lip-gloss", "title": "亮澤唇蜜", "body": "防止嘴唇乾燥的亮澤唇蜜。", "category": "makeup", "priceJpy": 1500, "image": "makeup-08.jpg"},
+    "p25": {"handle": "smooth-face-powder", "title": "清爽蜜粉", "body": "抑制脫妝的細緻蜜粉。", "category": "makeup", "priceJpy": 1800, "image": "makeup-09.jpg"},
+    "p26": {"handle": "nail-oil-pen", "title": "指緣修護油筆", "body": "塗於指甲根部的筆型修護油。", "category": "makeup", "priceJpy": 900, "image": "makeup-10.jpg"},
+    "p27": {"handle": "scalp-brush", "title": "頭皮按摩刷", "body": "洗髮時使用的頭皮用刷。", "category": "haircare", "priceJpy": 1100, "image": "haircare-04.jpg"},
+    "p28": {"handle": "repair-hair-mask", "title": "受損修護髮膜", "body": "每週一次的集中修護髮膜。", "category": "haircare", "priceJpy": 2000, "image": "haircare-05.jpg"},
+    "p29": {"handle": "bedhead-reset-mist", "title": "撫平毛躁噴霧", "body": "整理早晨睡翹髮的噴霧。", "category": "haircare", "priceJpy": 1200, "image": "haircare-06.jpg"},
+    "p30": {"handle": "color-keep-shampoo", "title": "護色洗髮精", "body": "為染髮固色設計的洗髮精。", "category": "haircare", "priceJpy": 1700, "image": "haircare-07.jpg"},
+    "p31": {"handle": "dry-shampoo", "title": "乾洗髮噴霧", "body": "免用水即可使用的噴霧洗髮精。", "category": "haircare", "priceJpy": 1500, "image": "haircare-08.jpg"},
+    "p32": {"handle": "soft-hair-milk", "title": "柔順護髮乳", "body": "乾髮也可用的輕盈護髮乳。", "category": "haircare", "priceJpy": 1600, "image": "haircare-09.jpg"},
+    "p33": {"handle": "hair-setting-stick", "title": "髮絲整理棒", "body": "整理碎髮的髮棒。", "category": "haircare", "priceJpy": 1000, "image": "haircare-10.jpg"},
+    "p34": {"handle": "heel-moisture-cream", "title": "足跟保濕霜", "body": "睡前足跟護理用乳霜。", "category": "bodycare", "priceJpy": 1300, "image": "bodycare-04.jpg"},
+    "p35": {"handle": "cool-body-sheets", "title": "涼感身體濕巾", "body": "外出可擦拭身體的涼感濕巾。", "category": "bodycare", "priceJpy": 800, "image": "bodycare-05.jpg"},
+    "p36": {"handle": "soft-hand-cream", "title": "保濕護手霜", "body": "手部易乾季節用的保濕霜。", "category": "bodycare", "priceJpy": 1100, "image": "bodycare-06.jpg"},
+    "p37": {"handle": "foot-scrub", "title": "足部去角質霜", "body": "每週一次的足底護理去角質霜。", "category": "bodycare", "priceJpy": 1600, "image": "bodycare-07.jpg"},
+    "p38": {"handle": "bath-salt-3", "title": "入浴劑3入組", "body": "三種香氣的入浴劑組合。", "category": "bodycare", "priceJpy": 900, "image": "bodycare-08.jpg"},
+    "p39": {"handle": "soft-body-brush", "title": "柔軟身體刷", "body": "可刷到背部的柔軟刷子。", "category": "bodycare", "priceJpy": 1400, "image": "bodycare-09.jpg"},
+    "p40": {"handle": "after-sun-gel", "title": "曬後舒緩凝膠", "body": "冷卻曬後肌膚的凝膠。", "category": "bodycare", "priceJpy": 1800, "image": "bodycare-10.jpg"}
+  }
+}

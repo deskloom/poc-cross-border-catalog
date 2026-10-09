@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "note": "Sample locale for the translation app. Shop and product names are fictional.",
+    "base": "en"
+  },
+  "theme": {
+    "shopName": "Sora Beauty",
+    "tagline": "Sample skincare and cosmetics catalog for Asia",
+    "langLabel": "Language",
+    "currencyLabel": "Currency",
+    "all": "All",
+    "items": "items",
+    "note": "Prices use fixed demo rates for display switching. Production uses Markets multi-currency display."
+  },
+  "categories": {
+    "skincare": "Skincare",
+    "makeup": "Makeup",
+    "haircare": "Haircare",
+    "bodycare": "Bodycare"
+  },
+  "products": {
+    "p01": {"handle": "awa-face-wash", "title": "Foam Face Wash", "body": "Fine-foam daily face wash.", "category": "skincare", "priceJpy": 1800, "image": "skincare-01.jpg"},
+    "p02": {"handle": "shittori-lotion", "title": "Moist Lotion", "body": "Lotion for dry-prone skin.", "category": "skincare", "priceJpy": 2400, "image": "skincare-02.jpg"},
+    "p03": {"handle": "oyasumi-cream", "title": "Night Moisture Cream", "body": "Night-time moisture cream.", "category": "skincare", "priceJpy": 3200, "image": "skincare-03.jpg"},
+    "p04": {"handle": "sarasara-sun-base", "title": "Smooth Sun Base", "body": "Sunscreen that works as a primer.", "category": "makeup", "priceJpy": 1500, "image": "makeup-01.jpg"},
+    "p05": {"handle": "nijimi-mascara", "title": "Smudge-proof Mascara", "body": "Mascara resistant to sweat and oil.", "category": "makeup", "priceJpy": 1300, "image": "makeup-02.jpg"},
+    "p06": {"handle": "uruoi-tint-lip", "title": "Moist Tinted Lip", "body": "Lightly tinted moisture lip.", "category": "makeup", "priceJpy": 1600, "image": "makeup-03.jpg"},
+    "p07": {"handle": "sappari-shampoo", "title": "Fresh Shampoo", "body": "Shampoo that cleanses the scalp.", "category": "haircare", "priceJpy": 1400, "image": "haircare-01.jpg"},
+    "p08": {"handle": "matomari-treatment", "title": "Smooth Treatment", "body": "Rinse-out care for tidy ends.", "category": "haircare", "priceJpy": 1400, "image": "haircare-02.jpg"},
+    "p09": {"handle": "tsuya-hair-oil", "title": "Shine Hair Oil", "body": "Leave-in oil for shine.", "category": "haircare", "priceJpy": 1900, "image": "haircare-03.jpg"},
+    "p10": {"handle": "yasashii-body-soap", "title": "Gentle Body Soap", "body": "Mild cleanser for the whole family.", "category": "bodycare", "priceJpy": 1200, "image": "bodycare-01.jpg"},
+    "p11": {"handle": "shittori-body-milk", "title": "Soft Body Milk", "body": "After-bath moisture milk.", "category": "bodycare", "priceJpy": 2100, "image": "bodycare-02.jpg"},
+    "p12": {"handle": "sarasara-seikan-sheet", "title": "Fresh Deo Sheets", "body": "On-the-go sweat wipes.", "category": "bodycare", "priceJpy": 980, "image": "bodycare-03.jpg"},
+    "p13": {"handle": "fukitori-lotion", "title": "Fresh Wiping Lotion", "body": "Morning wipe-off lotion.", "category": "skincare", "priceJpy": 1600, "image": "skincare-04.jpg"},
+    "p14": {"handle": "vitamin-serum", "title": "Vitamin Serum", "body": "Daily moisture serum.", "category": "skincare", "priceJpy": 2800, "image": "skincare-05.jpg"},
+    "p15": {"handle": "sheet-mask-5", "title": "Sheet Mask Set of 5", "body": "Five intensive-care sheet masks.", "category": "skincare", "priceJpy": 1100, "image": "skincare-06.jpg"},
+    "p16": {"handle": "sunscreen-gel", "title": "Sunscreen Gel", "body": "Face and body gel, doubles as primer.", "category": "skincare", "priceJpy": 1700, "image": "skincare-07.jpg"},
+    "p17": {"handle": "enzyme-wash-powder", "title": "Enzyme Wash Powder", "body": "Powder wash that foams with water.", "category": "skincare", "priceJpy": 1900, "image": "skincare-08.jpg"},
+    "p18": {"handle": "lotion-mist", "title": "Lotion Mist", "body": "Fine mist for on-the-go use.", "category": "skincare", "priceJpy": 1300, "image": "skincare-09.jpg"},
+    "p19": {"handle": "eye-moisture-cream", "title": "Eye Moisture Cream", "body": "Night-time eye-area cream.", "category": "skincare", "priceJpy": 2600, "image": "skincare-10.jpg"},
+    "p20": {"handle": "soft-blush", "title": "Soft Blush", "body": "Blush for a natural glow.", "category": "makeup", "priceJpy": 1400, "image": "makeup-04.jpg"},
+    "p21": {"handle": "longwear-liner", "title": "Longwear Eyeliner", "body": "Fine-tip liner, sweat and oil proof.", "category": "makeup", "priceJpy": 1200, "image": "makeup-05.jpg"},
+    "p22": {"handle": "moist-foundation", "title": "Moist Foundation", "body": "Light, dry-resistant foundation.", "category": "makeup", "priceJpy": 2900, "image": "makeup-06.jpg"},
+    "p23": {"handle": "brow-mascara", "title": "Brow Mascara", "body": "Small-brush brow mascara.", "category": "makeup", "priceJpy": 1300, "image": "makeup-07.jpg"},
+    "p24": {"handle": "glossy-lip-gloss", "title": "Glossy Lip Gloss", "body": "Shine gloss that keeps lips moist.", "category": "makeup", "priceJpy": 1500, "image": "makeup-08.jpg"},
+    "p25": {"handle": "smooth-face-powder", "title": "Smooth Face Powder", "body": "Fine powder against makeup fade.", "category": "makeup", "priceJpy": 1800, "image": "makeup-09.jpg"},
+    "p26": {"handle": "nail-oil-pen", "title": "Nail Oil Pen", "body": "Pen-type oil for cuticles.", "category": "makeup", "priceJpy": 900, "image": "makeup-10.jpg"},
+    "p27": {"handle": "scalp-brush", "title": "Scalp Brush", "body": "Scalp brush for shampoo time.", "category": "haircare", "priceJpy": 1100, "image": "haircare-04.jpg"},
+    "p28": {"handle": "repair-hair-mask", "title": "Repair Hair Mask", "body": "Weekly intensive repair mask.", "category": "haircare", "priceJpy": 2000, "image": "haircare-05.jpg"},
+    "p29": {"handle": "bedhead-reset-mist", "title": "Bedhead Reset Mist", "body": "Morning mist for bedhead.", "category": "haircare", "priceJpy": 1200, "image": "haircare-06.jpg"},
+    "p30": {"handle": "color-keep-shampoo", "title": "Color Keep Shampoo", "body": "Shampoo for color-treated hair.", "category": "haircare", "priceJpy": 1700, "image": "haircare-07.jpg"},
+    "p31": {"handle": "dry-shampoo", "title": "Dry Shampoo", "body": "Water-free spray shampoo.", "category": "haircare", "priceJpy": 1500, "image": "haircare-08.jpg"},
+    "p32": {"handle": "soft-hair-milk", "title": "Soft Hair Milk", "body": "Light milk, also for dry hair.", "category": "haircare", "priceJpy": 1600, "image": "haircare-09.jpg"},
+    "p33": {"handle": "hair-setting-stick", "title": "Hair Setting Stick", "body": "Stick for stray hairs.", "category": "haircare", "priceJpy": 1000, "image": "haircare-10.jpg"},
+    "p34": {"handle": "heel-moisture-cream", "title": "Heel Moisture Cream", "body": "Bedtime heel-care cream.", "category": "bodycare", "priceJpy": 1300, "image": "bodycare-04.jpg"},
+    "p35": {"handle": "cool-body-sheets", "title": "Cool Body Sheets", "body": "Cooling on-the-go body wipes.", "category": "bodycare", "priceJpy": 800, "image": "bodycare-05.jpg"},
+    "p36": {"handle": "soft-hand-cream", "title": "Soft Hand Cream", "body": "Hand cream for dry seasons.", "category": "bodycare", "priceJpy": 1100, "image": "bodycare-06.jpg"},
+    "p37": {"handle": "foot-scrub", "title": "Foot Scrub", "body": "Weekly sole-care scrub.", "category": "bodycare", "priceJpy": 1600, "image": "bodycare-07.jpg"},
+    "p38": {"handle": "bath-salt-3", "title": "Bath Salt Set of 3", "body": "Three bath salts in scents.", "category": "bodycare", "priceJpy": 900, "image": "bodycare-08.jpg"},
+    "p39": {"handle": "soft-body-brush", "title": "Soft Body Brush", "body": "Soft long-reach brush.", "category": "bodycare", "priceJpy": 1400, "image": "bodycare-09.jpg"},
+    "p40": {"handle": "after-sun-gel", "title": "After Sun Gel", "body": "Cooling gel for sun-exposed skin.", "category": "bodycare", "priceJpy": 1800, "image": "bodycare-10.jpg"}
+  }
+}

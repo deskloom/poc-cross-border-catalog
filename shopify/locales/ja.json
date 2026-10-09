@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "note": "翻訳アプリに読み込ませる想定の見本ロケール。店名と商品はすべて架空。",
+    "base": "ja"
+  },
+  "theme": {
+    "shopName": "そらビューティ",
+    "tagline": "アジアへ届けるスキンケアとコスメの見本市",
+    "langLabel": "言語",
+    "currencyLabel": "通貨",
+    "all": "すべて",
+    "items": "点の商品",
+    "note": "価格は固定レートによる表示切り替えの見本です。本番はMarketsの多通貨表示に置き換えます。"
+  },
+  "categories": {
+    "skincare": "スキンケア",
+    "makeup": "メイク",
+    "haircare": "ヘアケア",
+    "bodycare": "ボディケア"
+  },
+  "products": {
+    "p01": {"handle": "awa-face-wash", "title": "あわ洗顔フォーム", "body": "きめ細かい泡で洗う洗顔料。", "category": "skincare", "priceJpy": 1800, "image": "skincare-01.jpg"},
+    "p02": {"handle": "shittori-lotion", "title": "しっとり化粧水", "body": "乾燥しやすい肌のための化粧水。", "category": "skincare", "priceJpy": 2400, "image": "skincare-02.jpg"},
+    "p03": {"handle": "oyasumi-cream", "title": "おやすみ保湿クリーム", "body": "夜のケア用の保湿クリーム。", "category": "skincare", "priceJpy": 3200, "image": "skincare-03.jpg"},
+    "p04": {"handle": "sarasara-sun-base", "title": "さらさら日やけ止め下地", "body": "化粧下地にもなる日やけ止め。", "category": "makeup", "priceJpy": 1500, "image": "makeup-01.jpg"},
+    "p05": {"handle": "nijimi-mascara", "title": "にじみにくいマスカラ", "body": "汗や皮脂に強いマスカラ。", "category": "makeup", "priceJpy": 1300, "image": "makeup-02.jpg"},
+    "p06": {"handle": "uruoi-tint-lip", "title": "うるおい色つきリップ", "body": "ほんのり色づく保湿リップ。", "category": "makeup", "priceJpy": 1600, "image": "makeup-03.jpg"},
+    "p07": {"handle": "sappari-shampoo", "title": "さっぱりシャンプー", "body": "地肌をすっきり洗うシャンプー。", "category": "haircare", "priceJpy": 1400, "image": "haircare-01.jpg"},
+    "p08": {"handle": "matomari-treatment", "title": "まとまりトリートメント", "body": "毛先までまとまる洗い流すケア。", "category": "haircare", "priceJpy": 1400, "image": "haircare-02.jpg"},
+    "p09": {"handle": "tsuya-hair-oil", "title": "つや出しヘアオイル", "body": "少量でつやを出す洗い流さないケア。", "category": "haircare", "priceJpy": 1900, "image": "haircare-03.jpg"},
+    "p10": {"handle": "yasashii-body-soap", "title": "やさしいボディソープ", "body": "家族で使える弱酸性の洗浄料。", "category": "bodycare", "priceJpy": 1200, "image": "bodycare-01.jpg"},
+    "p11": {"handle": "shittori-body-milk", "title": "しっとりボディミルク", "body": "お風呂上がりの保湿ミルク。", "category": "bodycare", "priceJpy": 2100, "image": "bodycare-02.jpg"},
+    "p12": {"handle": "sarasara-seikan-sheet", "title": "さらさら制汗シート", "body": "外出先で使える汗ふきシート。", "category": "bodycare", "priceJpy": 980, "image": "bodycare-03.jpg"},
+    "p13": {"handle": "fukitori-lotion", "title": "さっぱりふき取り化粧水", "body": "朝のふき取りケア用の化粧水。", "category": "skincare", "priceJpy": 1600, "image": "skincare-04.jpg"},
+    "p14": {"handle": "vitamin-serum", "title": "ビタミン美容液", "body": "毎日の保湿ケア用の美容液。", "category": "skincare", "priceJpy": 2800, "image": "skincare-05.jpg"},
+    "p15": {"handle": "sheet-mask-5", "title": "シートマスク5枚入り", "body": "週末の集中ケア用シートマスク5枚入り。", "category": "skincare", "priceJpy": 1100, "image": "skincare-06.jpg"},
+    "p16": {"handle": "sunscreen-gel", "title": "日やけ止めジェル", "body": "化粧下地にもなる顔・体兼用ジェル。", "category": "skincare", "priceJpy": 1700, "image": "skincare-07.jpg"},
+    "p17": {"handle": "enzyme-wash-powder", "title": "酵素洗顔パウダー", "body": "水で泡立てるパウダー状洗顔料。", "category": "skincare", "priceJpy": 1900, "image": "skincare-08.jpg"},
+    "p18": {"handle": "lotion-mist", "title": "化粧水ミスト", "body": "外出先でも使える細かいミスト。", "category": "skincare", "priceJpy": 1300, "image": "skincare-09.jpg"},
+    "p19": {"handle": "eye-moisture-cream", "title": "目もと保湿クリーム", "body": "夜の目もとケア用クリーム。", "category": "skincare", "priceJpy": 2600, "image": "skincare-10.jpg"},
+    "p20": {"handle": "soft-blush", "title": "ふんわりチーク", "body": "ほおに自然な血色を足すチーク。", "category": "makeup", "priceJpy": 1400, "image": "makeup-04.jpg"},
+    "p21": {"handle": "longwear-liner", "title": "長持ちアイライナー", "body": "汗や皮脂に強い細筆ライナー。", "category": "makeup", "priceJpy": 1200, "image": "makeup-05.jpg"},
+    "p22": {"handle": "moist-foundation", "title": "しっとりファンデーション", "body": "薄づきで乾燥しにくいファンデーション。", "category": "makeup", "priceJpy": 2900, "image": "makeup-06.jpg"},
+    "p23": {"handle": "brow-mascara", "title": "眉マスカラ", "body": "地肌につきにくい小さめブラシの眉マスカラ。", "category": "makeup", "priceJpy": 1300, "image": "makeup-07.jpg"},
+    "p24": {"handle": "glossy-lip-gloss", "title": "つやリップグロス", "body": "唇の乾燥を防ぐつや出しグロス。", "category": "makeup", "priceJpy": 1500, "image": "makeup-08.jpg"},
+    "p25": {"handle": "smooth-face-powder", "title": "さらさらフェイスパウダー", "body": "化粧崩れを抑える細かいパウダー。", "category": "makeup", "priceJpy": 1800, "image": "makeup-09.jpg"},
+    "p26": {"handle": "nail-oil-pen", "title": "ネイルオイルペン", "body": "爪の根もとに塗るペン型オイル。", "category": "makeup", "priceJpy": 900, "image": "makeup-10.jpg"},
+    "p27": {"handle": "scalp-brush", "title": "頭皮スカルプブラシ", "body": "シャンプー時に使う頭皮用ブラシ。", "category": "haircare", "priceJpy": 1100, "image": "haircare-04.jpg"},
+    "p28": {"handle": "repair-hair-mask", "title": "ダメージ補修ヘアマスク", "body": "週1回の集中補修用ヘアマスク。", "category": "haircare", "priceJpy": 2000, "image": "haircare-05.jpg"},
+    "p29": {"handle": "bedhead-reset-mist", "title": "寝ぐせ直しミスト", "body": "朝の寝ぐせを直すミスト。", "category": "haircare", "priceJpy": 1200, "image": "haircare-06.jpg"},
+    "p30": {"handle": "color-keep-shampoo", "title": "カラーキープシャンプー", "body": "染めた髪の色持ちを考えたシャンプー。", "category": "haircare", "priceJpy": 1700, "image": "haircare-07.jpg"},
+    "p31": {"handle": "dry-shampoo", "title": "ドライシャンプー", "body": "水を使わず使えるスプレー状シャンプー。", "category": "haircare", "priceJpy": 1500, "image": "haircare-08.jpg"},
+    "p32": {"handle": "soft-hair-milk", "title": "しっとりヘアミルク", "body": "乾いた髪にも使える軽いミルク。", "category": "haircare", "priceJpy": 1600, "image": "haircare-09.jpg"},
+    "p33": {"handle": "hair-setting-stick", "title": "まとめ髪スティック", "body": "おくれ毛をまとめるスティック。", "category": "haircare", "priceJpy": 1000, "image": "haircare-10.jpg"},
+    "p34": {"handle": "heel-moisture-cream", "title": "かかと保湿クリーム", "body": "寝る前の踵ケア用クリーム。", "category": "bodycare", "priceJpy": 1300, "image": "bodycare-04.jpg"},
+    "p35": {"handle": "cool-body-sheets", "title": "ひんやりボディシート", "body": "外出先で体をふける冷感シート。", "category": "bodycare", "priceJpy": 800, "image": "bodycare-05.jpg"},
+    "p36": {"handle": "soft-hand-cream", "title": "しっとりハンドクリーム", "body": "手荒れしやすい季節の保湿クリーム。", "category": "bodycare", "priceJpy": 1100, "image": "bodycare-06.jpg"},
+    "p37": {"handle": "foot-scrub", "title": "足裏スクラブ", "body": "週1回の足裏ケア用スクラブ。", "category": "bodycare", "priceJpy": 1600, "image": "bodycare-07.jpg"},
+    "p38": {"handle": "bath-salt-3", "title": "入浴剤3個セット", "body": "香りの違う入浴剤3個セット。", "category": "bodycare", "priceJpy": 900, "image": "bodycare-08.jpg"},
+    "p39": {"handle": "soft-body-brush", "title": "やさしいボディブラシ", "body": "背中まで届くやわらかめのブラシ。", "category": "bodycare", "priceJpy": 1400, "image": "bodycare-09.jpg"},
+    "p40": {"handle": "after-sun-gel", "title": "日やけ後保湿ジェル", "body": "日やけ後の肌を冷やすジェル。", "category": "bodycare", "priceJpy": 1800, "image": "bodycare-10.jpg"}
+  }
+}

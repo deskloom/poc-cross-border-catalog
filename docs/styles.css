@@ -1,0 +1,155 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans TC", sans-serif;
+  color: #333;
+  background: #faf7f2;
+  line-height: 1.7;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.sample-banner {
+  margin: 0;
+  background: #8a6d1b;
+  color: #fff;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+header {
+  background: #2f5d50;
+  color: #fff;
+  padding: 28px 16px;
+  text-align: center;
+}
+
+header h1 { margin: 0 0 8px; font-size: 1.6rem; }
+header p { margin: 0; font-size: 0.95rem; opacity: 0.9; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 1px solid #e3dccd;
+  padding: 12px 16px;
+}
+
+.control-group { display: flex; align-items: center; gap: 8px; }
+.control-group .label { font-size: 0.85rem; font-weight: bold; }
+
+.switcher { display: flex; gap: 6px; }
+.switcher button {
+  border: 1px solid #2f5d50;
+  background: #fff;
+  color: #2f5d50;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.switcher button[aria-pressed="true"] {
+  background: #2f5d50;
+  color: #fff;
+}
+
+main { max-width: 1020px; margin: 0 auto; padding: 24px 16px 48px; }
+
+.category-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.category-card {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 14px 8px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.category-card small { display: block; font-weight: normal; font-size: 0.75rem; opacity: 0.9; }
+.category-card[data-cat="skincare"] { background: #7fb3a3; }
+.category-card[data-cat="makeup"] { background: #d08aa0; }
+.category-card[data-cat="haircare"] { background: #8ba7cf; }
+.category-card[data-cat="bodycare"] { background: #c9a06a; }
+.category-card[aria-pressed="true"] { outline: 3px solid #2f5d50; outline-offset: 2px; }
+.category-card.all { background: #fff; color: #2f5d50; border-color: #2f5d50; }
+
+.result-line { text-align: center; margin: 16px 0; font-weight: bold; }
+.tri-note { text-align: center; font-size: 0.85rem; color: #2f5d50; margin: 0 0 16px; font-weight: bold; }
+.note { text-align: center; font-size: 0.8rem; color: #777; margin-top: 24px; }
+
+.shopify-memo {
+  margin-top: 32px;
+  background: #fff;
+  border: 1px solid #e3dccd;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 0.85rem;
+}
+.shopify-memo h2 { margin: 0 0 8px; font-size: 1rem; }
+.shopify-memo ul { margin: 8px 0 0; padding-left: 1.2em; }
+.shopify-memo code { font-size: 0.8rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e3dccd;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card .slot {
+  min-height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 12px 8px;
+  background: #f4f1ea;
+  border-bottom: 2px dashed #b9ac93;
+  border-top: 4px solid #b9ac93;
+  text-align: center;
+}
+.card[data-cat="skincare"] .slot { border-top-color: #7fb3a3; }
+.card[data-cat="makeup"] .slot { border-top-color: #d08aa0; }
+.card[data-cat="haircare"] .slot { border-top-color: #8ba7cf; }
+.card[data-cat="bodycare"] .slot { border-top-color: #c9a06a; }
+.card .slot-name { font-size: 0.78rem; font-weight: bold; color: #5a5347; word-break: keep-all; }
+.card .slot small { font-size: 0.7rem; color: #8a8172; }
+.card .alt-names { margin: 0; font-size: 0.72rem; color: #8a8172; }
+.card .sub-prices { font-size: 0.78rem; color: #5a6e64; }
+.card .body { padding: 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.card .body > * { min-width: 0; }
+.card h3 { margin: 0; font-size: 0.95rem; }
+.card .cat { font-size: 0.75rem; color: #888; }
+.card p { margin: 0; font-size: 0.82rem; color: #555; flex: 1; }
+.card .price { font-weight: bold; color: #2f5d50; font-size: 1rem; }
+
+@media (max-width: 700px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .category-nav { grid-template-columns: repeat(2, 1fr); }
+  header h1 { font-size: 1.3rem; }
+}

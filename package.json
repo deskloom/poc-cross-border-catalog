@@ -1,0 +1,1 @@
+{"name": "cross-border-catalog-poc", "private": true, "version": "0.1.0", "description": "多言語・多通貨切り替え付き商品カタログのPOC", "scripts": {"test": "node --test"}, "engines": {"node": ">=18"}}
